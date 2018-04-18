@@ -9,7 +9,7 @@ namespace SmartColeira.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        static IList<string> values = new List<string>();
+        static IList<string> values = new List<string>() {"Valor Inicial"};
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
